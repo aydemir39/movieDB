@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ededed</color>
+    <color name="colorPrimaryDark">#acaab1</color>
+    <color name="colorAccent">#D61729</color>
+    <color name="colorBackground">#ededed</color>
+    <color name="colorBottomNavigationBackground">#ffffff</color>
+    <color name="colorTitle">#212121</color>
+    <color name="colorPlaceHolder">#d4d4d4</color>
+
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">movie DB</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">PROFİLE</string>
+    <string name="tv">TV</string>
+    <string name="movies">MOVİES</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+    <string name="back">Back</string>
+    <string name="full_cast_crew">Full Cast &amp; Crew</string>
+    <string name="top_rated_movies">Top Rated Movies</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="popular">Popular</string>
+    <string name="applogist">AppLogist</string>
+    <string name="top_rated_tv_series">Top Rated Tv Series</string>
+
+</resources>

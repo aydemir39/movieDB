@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_title_fr_profile">34sp</dimen>
+
+
+    <dimen name="bottom_navigation_view_size">64dp</dimen>
+
+
+    <dimen name="text_size_secondary_title_fr_movie_tv">28sp</dimen>
+    <dimen name="text_size_primary_title_fr_movie_tv_profile">38sp</dimen>
+
+    <dimen name="recyclerview1_height_fr_movie_tv">280dp</dimen>
+    <dimen name="recyclerview2_height_fr_movie_tv">320dp</dimen>
+
+    <dimen name="row_card_cast_crew_1">150dp</dimen>
+    <dimen name="row_card_cast_crew_2">260dp</dimen>
+
+
+    <dimen name="row_movie_horizontal_1">480dp</dimen>
+    <dimen name="row_movie_horizontal_2">230dp</dimen>
+    <dimen name="row_movie_vertical_1">200dp</dimen>
+    <dimen name="row_movie_vertical_2">280dp</dimen>
+
+
+    <dimen name="row_tv_horizontal_2">250dp</dimen>
+    <dimen name="row_tv_vertical_1">200dp</dimen>
+    <dimen name="row_tv_vertical_2">280dp</dimen>
+
+    <dimen name="cardview_fr_detail">270dp</dimen>
+
+
+    <dimen name="text_size_14sp">24sp</dimen>
+    <dimen name="text_size_16sp">26sp</dimen>
+    <dimen name="text_size_20sp">30sp</dimen>
+    <dimen name="text_size_10sp">20sp</dimen>
+    <dimen name="text_size_18sp">28sp</dimen>
+
+    <dimen name="icon_size">32dp</dimen>
+
+    <dimen name="detail_cover_image">400dp</dimen>
+
+    <dimen name="nested_padding_movie_tv">72dp</dimen>
+</resources>

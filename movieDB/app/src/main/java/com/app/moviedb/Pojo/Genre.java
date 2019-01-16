@@ -10,8 +10,6 @@ public class Genre {
     @SerializedName("name")
     @Expose
     private String name;
-
-
     @Override
     public String toString() {
         return name;

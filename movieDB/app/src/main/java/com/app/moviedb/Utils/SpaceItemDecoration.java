@@ -7,7 +7,7 @@ import android.view.View;
 
 public class SpaceItemDecoration extends RecyclerView.ItemDecoration {
 
-    int spaceHeight;
+    private int spaceHeight;
 
     public SpaceItemDecoration(int spaceHeight) {
         this.spaceHeight = spaceHeight;
@@ -18,12 +18,6 @@ public class SpaceItemDecoration extends RecyclerView.ItemDecoration {
 
         if (parent.getChildAdapterPosition(view) == 0) {
             outRect.left = spaceHeight;
-        } else {
-
         }
-        //outRect.left = spaceHeight;
-        // outRect.right = spaceHeight;
-        //outRect.bottom = spaceHeight;
-
     }
 }

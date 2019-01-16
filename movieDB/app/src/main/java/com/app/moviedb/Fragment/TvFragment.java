@@ -35,16 +35,12 @@ public class TvFragment extends Fragment {
     }
 
     public static TvFragment newInstance() {
-
         return new TvFragment();
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-
-        }
     }
 
     @Override
@@ -56,16 +52,6 @@ public class TvFragment extends Fragment {
         getTopRatedTvSeries();
         getPopular();
         return view;
-    }
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-    }
-
-    @Override
-    public void onDetach() {
-        super.onDetach();
     }
     /////------------------------------------------------------------------------------------/////
 
@@ -79,7 +65,6 @@ public class TvFragment extends Fragment {
         fragmentTvBinding.recyclerVPopularFrTv.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false));
         tvAdapterPopular = new TvAdapter(getActivity(), 2, new RequestOptions());
         fragmentTvBinding.recyclerVPopularFrTv.setAdapter(tvAdapterPopular);
-
     }
 
     protected void getTopRatedTvSeries() {

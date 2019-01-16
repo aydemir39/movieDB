@@ -108,7 +108,6 @@ public class DetailFragment extends Fragment {
         fragmentDetailBinding.recyclerVCastCrewFrDetail.addItemDecoration(new SpaceItemDecoration(48));
 
         castCrewAdapter = new CastCrewAdapter(getActivity(), new RequestOptions());
-
     }
 
     private void registerHandlers() {

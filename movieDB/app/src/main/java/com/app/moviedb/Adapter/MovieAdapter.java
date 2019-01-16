@@ -133,8 +133,6 @@ public class MovieAdapter extends RecyclerView.Adapter {
                 .add(R.id.frameL_main_ac_main, detailFragment, "detailFragment")
                 .addToBackStack(null)
                 .commit();
-
-
     }
 
 }

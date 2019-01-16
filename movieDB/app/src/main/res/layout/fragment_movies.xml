@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout >
+<layout>
 
     <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -18,10 +18,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:collapsedTitleGravity="start"
+                app:collapsedTitleTextAppearance="@style/CollapsedAppBar"
                 app:contentScrim="@color/colorBackground"
                 app:expandedTitleMarginStart="24dp"
                 app:expandedTitleTextAppearance="@style/ExpandedAppBar"
-                app:collapsedTitleTextAppearance="@style/CollapsedAppBar"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed"
                 app:title="MOVİES"
                 app:toolbarId="@+id/toolbar">

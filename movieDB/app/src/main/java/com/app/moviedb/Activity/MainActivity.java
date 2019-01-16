@@ -24,10 +24,9 @@ import org.greenrobot.eventbus.Subscribe;
 public class MainActivity extends AppCompatActivity {
     private FragmentManager fragmentManager;
     private Fragment fragmentMovies, fragmentTv, fragmentProfile, fragmentActive;
-
     private int bottomNavigationViewHeight;
     private boolean doubleBack = false;
-    ActivityMainBinding activityMainBinding;
+    private ActivityMainBinding activityMainBinding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

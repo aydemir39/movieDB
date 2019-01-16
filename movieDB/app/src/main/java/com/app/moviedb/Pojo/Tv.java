@@ -7,19 +7,12 @@ public class Tv {
 
     @SerializedName("popularity")
     private Double popularity;
-
-
     @SerializedName("backdrop_path")
     private String backdropPath;
-
-
     @SerializedName("id")
     private Integer id;
-
     @SerializedName("vote_average")
     private Double voteAverage;
-
-
     @SerializedName("poster_path")
     private String posterPath;
 

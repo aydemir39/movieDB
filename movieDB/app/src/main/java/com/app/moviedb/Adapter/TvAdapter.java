@@ -124,5 +124,4 @@ public class TvAdapter extends RecyclerView.Adapter {
                 .addToBackStack(null)
                 .commit();
     }
-
 }

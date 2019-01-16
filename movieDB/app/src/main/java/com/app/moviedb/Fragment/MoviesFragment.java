@@ -42,8 +42,6 @@ public class MoviesFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-        }
     }
 
     @Override
@@ -58,20 +56,7 @@ public class MoviesFragment extends Fragment {
         getPopular();
         return view;
     }
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-    }
-
-    @Override
-    public void onDetach() {
-        super.onDetach();
-
-    }
     /////--------------------------------------------------------------------------------------/////
-
-
     protected void init() {
 
         fragmentMoviesBinding.recyclerVTopRatedMoviesFrMovies.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false));
@@ -113,13 +98,12 @@ public class MoviesFragment extends Fragment {
     protected void getNowPlaying() {
 
         RetrofitService retrofitService = RetrofitApiClient.getClient().create(RetrofitService.class);
-        Call<MovieResponse> call = retrofitService.getNowPlayingMovies("d0c67ddbb6f821fb634fa40880d135bf");
+        Call<MovieResponse> call = retrofitService.getNowPlayingMovies(API_KEY);
         call.enqueue(new Callback<MovieResponse>() {
             @Override
             public void onResponse(Call<MovieResponse> call, Response<MovieResponse> response) {
 
                 if (response.isSuccessful()) {
-
                     response.body().getResults();
                     movieAdapterNowPlaying.addList(response.body().getResults());
                 }
@@ -135,7 +119,7 @@ public class MoviesFragment extends Fragment {
     protected void getPopular() {
 
         RetrofitService retrofitService = RetrofitApiClient.getClient().create(RetrofitService.class);
-        Call<MovieResponse> call = retrofitService.getPupularMovies("d0c67ddbb6f821fb634fa40880d135bf");
+        Call<MovieResponse> call = retrofitService.getPupularMovies(API_KEY);
         call.enqueue(new Callback<MovieResponse>() {
             @Override
             public void onResponse(Call<MovieResponse> call, Response<MovieResponse> response) {

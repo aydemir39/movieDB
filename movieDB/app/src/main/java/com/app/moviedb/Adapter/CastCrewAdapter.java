@@ -8,7 +8,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.app.moviedb.Pojo.Cast;
@@ -110,7 +109,6 @@ public class CastCrewAdapter extends RecyclerView.Adapter<CastCrewAdapter.ViewHo
             textV_name_row_cast_crew = itemView.findViewById(R.id.textV_name_row_cast_crew);
             textView = itemView.findViewById(R.id.textV_row_castCrew);
             imageView = itemView.findViewById(R.id.imageV_row_castCrew);
-
         }
     }
 }
